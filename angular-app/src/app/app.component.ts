@@ -33,6 +33,6 @@ export class AppComponent implements OnInit {
   }
 
   getHelloMessage(): Observable<any> {
-    return this.http.get('http://40.65.184.185:4000/hello', {responseType: 'text'});
+    return this.http.get('https://chervineapiwin.azurewebsites.net/hello', {responseType: 'text'});
   }
 }
